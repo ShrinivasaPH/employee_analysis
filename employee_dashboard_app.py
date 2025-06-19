@@ -1,4 +1,6 @@
+# Create a complete Streamlit script as a .py file for the user's dashboard
 
+streamlit_script = """
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -42,3 +44,11 @@ st.subheader("📊 Correlation Heatmap")
 fig3, ax3 = plt.subplots()
 sns.heatmap(correlation, annot=True, cmap="coolwarm", ax=ax3)
 st.pyplot(fig3)
+"""
+
+# Save the Streamlit script to a .py file
+streamlit_script_path = "/mnt/data/employee_dashboard_app.py"
+with open(streamlit_script_path, "w") as f:
+    f.write(streamlit_script)
+
+streamlit_script_path
