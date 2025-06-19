@@ -9,11 +9,11 @@ Original file is located at
 # **Loading the data**
 """
 
-!gdown 1sNNnoQApDF2TZZ16NmeduLEXC7aJwZpT
+#!gdown 1sNNnoQApDF2TZZ16NmeduLEXC7aJwZpT
 
-!gdown 1-x_MO_L7Eu4qb2f7vQvcm3pq5NRGQXow
+#!gdown 1-x_MO_L7Eu4qb2f7vQvcm3pq5NRGQXow
 
-!gdown 17ClKZVkwN9i-0A7Z2aXO-ozDtuO-_qq2
+#!gdown 17ClKZVkwN9i-0A7Z2aXO-ozDtuO-_qq2
 
 import numpy as np
 
